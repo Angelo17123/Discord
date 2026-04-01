@@ -1,0 +1,37 @@
+module.exports = {
+  sedes: {
+    warlocks: '🔮', cristalpalace: '💎', shahara: '🏜️', sicilia: '🍷',
+    badjobs: '💼', barragem: '🚧', tropado7lc: '🪖', vendetta: '🗡️',
+    legacy: '🏛️', la04: '🏙️', divineghost: '👻', bloodsdiamonds: '🩸',
+    porrosfamily: '🌿', driftking: '🏎️', as: '🛡️', italia: '🇮🇹',
+    clanreal: '👑', anonimato: '🎭', verdes: '🟢', caribe: '🌴',
+    redline: '🔴', china: '🐉', lacandela: '🔥', virtude: '⚖️',
+    glyzzup: '🌭', shadowsking: '👑', stk: '⚔️', uwu: '🏰',
+    lopez: '🎇',
+  },
+  facciones: {
+    a_s: '🛡️', anonimato: '🎭', barragem: '🚧', bloodsdiamonds: '🩸',
+    caribe: '🌴', china: '🐉', clan_real: '👑', cristalpalace: '💎',
+    divineghost: '👻', driftking: '🏎️', glyzzup: '🌭', italia: '🇮🇹',
+    la04: '🏙️', lacandela: '🔥', legacy: '🏛️', porrosfamily: '🌿',
+    redline: '🔴', shadowsking: '👑', shahara: '🏜️', sicilia: '🍷',
+    stk: '⚔️', tropado7lc: '🪖', vendetta: '🗡️', verdes: '🟢',
+    virtude: '⚖️', warlocks: '🔮',
+  },
+  faccionesBr: {
+    Warlocks: '🔮', CristalPalace: '💎', Shahara: '🏜️', Sicilia: '🍷',
+    BadJobs: '💼', Barragem: '🚧', TropaDo7Lc: '🪖', Vendetta: '🗡️',
+    Legacy: '🏛️', La04: '🏙️', DivineGhost: '👻', BloodsDiamonds: '🩸',
+    PorrosFamily: '🌿', DriftKing: '🏎️', AS: '🛡️', Italia: '🇮🇹',
+    ClanReal: '👑', Anonimato: '🎭', Verdes: '🟢', Caribe: '🌴',
+    Redline: '🔴', China: '🐉', LaCandela: '🔥', Virtude: '⚖️',
+    Glyzzup: '🌭', ShadowsKing: '👑', STK: '⚔️', LaRianxera: '🎤',
+  },
+  ui: {
+    panel: { normal: '⚡', vip: '💎', custom: '🛠️', bicicleta: '⚡' },
+    team: { defensa: '🛡️', ataque: '⚔️', eq1: '🔵', eq2: '🔴' },
+    sede: '🏰', leon: '🦁', victoria: '🏆',
+    br: { ciudad: '🏢', cayo: '🏝️', rey: '👑' },
+    tipo: { asalto: '⚔️', rey: '👑', brCayo: '🏝️', brCiudad: '🏢', bicicleta: '🚲' },
+  },
+};
