@@ -1,11 +1,17 @@
-# Bot de Discord - Entretenimiento
+# Discord Voice Bot
 
-Bot de Discord con comandos de asaltos, ranking y más.
+Selfbot que se mantiene conectado a un canal de voz.
+
+## Variables de entorno
+
+| Variable | Descripción |
+|---|---|
+| `DISCORD_TOKEN` | Token de tu cuenta de Discord |
+| `GUILD_ID` | ID del servidor |
+| `CHANNEL_ID` | ID del canal de voz inicial |
 
 ## Despliegue en Render
 
-1. Conecta este repositorio a Render como Web Service
-2. Configura las variables de entorno:
-   - `TOKEN_DISCORD_BOT` - Token de tu bot
-   - `DATABASE_URL` - URL de PostgreSQL
-3. El health check está disponible en `/health`
+1. Conecta este repositorio como Web Service
+2. Configura las variables de entorno arriba
+3. El health check está en `/health`
