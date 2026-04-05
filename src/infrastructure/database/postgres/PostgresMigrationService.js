@@ -2,6 +2,10 @@ const db = require("../PostgresConnection");
 const initialData = require("./seeds/initial-data.seed");
 
 class PostgresMigrationService {
+  async runAll() {
+    return this.runMigrations();
+  }
+
   async runMigrations() {
     const pool = db.getPool();
     await this.createTables(pool);

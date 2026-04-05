@@ -1,0 +1,53 @@
+[
+  {
+    "id": "match_1700000001",
+    "sede_name": "Almacen de Muelles",
+    "def_name": "L.S.P.D.",
+    "atk_name": "The Cartel",
+    "winner_name": "The Cartel",
+    "score_def": 0,
+    "score_atk": 1,
+    "rounds": 1,
+    "capacity": "15 vs 15",
+    "created_at": "2026-04-01T21:30:00.000Z",
+    "iso_year_week": "2026-W14",
+    "event_subtype": "asalto",
+    "creatorid": null,
+    "staffapoyo": [],
+    "fecha": "01/04/2026"
+  },
+  {
+    "id": "match_1700000002",
+    "sede_name": "Mansion Vinewood",
+    "def_name": "Vagos Gang",
+    "atk_name": "Ballas Family",
+    "winner_name": "Vagos Gang",
+    "score_def": 3,
+    "score_atk": 0,
+    "rounds": 3,
+    "capacity": "20 vs 20",
+    "created_at": "2026-03-30T18:15:00.000Z",
+    "iso_year_week": "2026-W13",
+    "event_subtype": "asalto",
+    "creatorid": null,
+    "staffapoyo": [],
+    "fecha": "30/03/2026"
+  },
+  {
+    "id": "br_1700000003",
+    "sede_name": "Cayo Perico Island",
+    "def_name": "Solo: Jax",
+    "atk_name": "14 jugadores",
+    "winner_name": "Solo: Jax",
+    "score_def": 1,
+    "score_atk": 0,
+    "rounds": 1,
+    "capacity": "15 jugadores",
+    "created_at": "2026-03-28T23:00:00.000Z",
+    "iso_year_week": "2026-W13",
+    "event_subtype": "br_cayo",
+    "creatorid": null,
+    "staffapoyo": [],
+    "fecha": "28/03/2026"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "key": "lspd",
+    "nombre": "L.S.P.D.",
+    "coordenadas": "124.5, -452.1, 35.8"
+  },
+  {
+    "key": "cartel",
+    "nombre": "The Cartel",
+    "coordenadas": "-1092.3, 1542.8, 12.4"
+  },
+  {
+    "key": "vagos",
+    "nombre": "Vagos Gang",
+    "coordenadas": "300.0, -1200.0, 25.0"
+  },
+  {
+    "key": "ballas",
+    "nombre": "Ballas Family",
+    "coordenadas": "-150.0, 1600.0, 30.0"
+  },
+  {
+    "key": "lost_mc",
+    "nombre": "The Lost MC",
+    "coordenadas": "500.0, 2700.0, 45.0"
+  },
+  {
+    "key": "bratva",
+    "nombre": "Bratva Mafia",
+    "coordenadas": "-800.0, 1500.0, 10.0"
+  }
+]

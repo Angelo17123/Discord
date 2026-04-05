@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Almacen de Muelles",
+    "capacidad": "15 vs 15",
+    "coords_defensa": "124.5, -452.1, 35.8",
+    "coords_ataque": "-1092.3, 1542.8, 12.4"
+  },
+  {
+    "id": 2,
+    "name": "Mansion Vinewood",
+    "capacidad": "20 vs 20",
+    "coords_defensa": "200.0, 500.0, 80.0",
+    "coords_ataque": "-300.0, 600.0, 45.0"
+  },
+  {
+    "id": 3,
+    "name": "Laboratorio Paleto Bay",
+    "capacidad": "15 vs 15",
+    "coords_defensa": "50.0, 3000.0, 20.0",
+    "coords_ataque": "-100.0, 3100.0, 15.0"
+  },
+  {
+    "id": 4,
+    "name": "Bunker Sandy Shores",
+    "capacidad": "10 vs 10",
+    "coords_defensa": "1800.0, 2500.0, 40.0",
+    "coords_ataque": "1700.0, 2400.0, 30.0"
+  }
+]

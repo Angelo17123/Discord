@@ -1,0 +1,44 @@
+[
+  {
+    "sede_name": "L.S.P.D.",
+    "wins": 12,
+    "losses": 3,
+    "points": 12,
+    "total_matches": 15
+  },
+  {
+    "sede_name": "The Cartel",
+    "wins": 10,
+    "losses": 5,
+    "points": 10,
+    "total_matches": 15
+  },
+  {
+    "sede_name": "Vagos Gang",
+    "wins": 8,
+    "losses": 4,
+    "points": 8,
+    "total_matches": 12
+  },
+  {
+    "sede_name": "Ballas Family",
+    "wins": 6,
+    "losses": 6,
+    "points": 6,
+    "total_matches": 12
+  },
+  {
+    "sede_name": "The Lost MC",
+    "wins": 5,
+    "losses": 7,
+    "points": 5,
+    "total_matches": 12
+  },
+  {
+    "sede_name": "Bratva Mafia",
+    "wins": 3,
+    "losses": 9,
+    "points": 3,
+    "total_matches": 12
+  }
+]

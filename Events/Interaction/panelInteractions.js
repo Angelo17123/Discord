@@ -443,7 +443,7 @@ if (interaction.isButton() && interaction.customId === 'btn_ranking_asaltos') {
 const { getRanking, getISOYearWeekString, getWeekNumber } = require('../../src/services/assaultPersistence');
 const weekNum = getWeekNumber();
 const week = getISOYearWeekString();
-const ranking = getRanking(week);
+const ranking = await getRanking(week);
 if (!ranking.length) {
 return interaction.reply({ content: `No hay asalto(s) registrados en la semana **${weekNum}**.`, flags: MessageFlags.Ephemeral });
 }
@@ -919,7 +919,7 @@ session.brAssignments = {};
 session.brZones = {};
 }
 sessionManager.updateSession(sessionId, session);
-const embed = getBrEmbed(session, true);
+const embed = await getBrEmbed(session, true);
 const rows = getBrPanelRows(session, sessionId);
 return interaction.update({ embeds: [embed], components: rows });
 }
@@ -931,7 +931,7 @@ const isStaff = session.staff?.includes(interaction.user.id);
 if (!isStaff) {
 return interaction.reply({ content: '❌ No cuentas con permisos. Solo los leones asignados pueden ver el panel.', flags: MessageFlags.Ephemeral });
 }
-const embed = getBrEmbed(session, true);
+const embed = await getBrEmbed(session, true);
 const rows = getBrPanelRows(session, sessionId);
 return interaction.reply({ embeds: [embed], components: rows, flags: MessageFlags.Ephemeral });
 }
@@ -996,7 +996,7 @@ if (interaction.isButton() && interaction.customId === 'btn_ranking_semana') {
 const { getRanking, getISOYearWeekString, getWeekNumber } = require('../../src/services/assaultPersistence');
 const weekNum = getWeekNumber();
 const week = getISOYearWeekString();
-const ranking = getRanking(week);
+const ranking = await getRanking(week);
 if (!ranking.length) {
 return interaction.reply({ content: `No hay asalto(s) registrados en la semana **${weekNum}**.`, flags: MessageFlags.Ephemeral });
 }
@@ -1014,7 +1014,7 @@ return interaction.reply({ embeds: [embed], flags: MessageFlags.Ephemeral });
 if (interaction.isButton() && interaction.customId === 'btn_ranking_mes') {
 const { getRankingMensual, getMonthString } = require('../../src/services/assaultPersistence');
 const monthStr = getMonthString();
-const ranking = getRankingMensual();
+const ranking = await getRankingMensual();
 if (!ranking.length) {
 return interaction.reply({ content: `No hay asalto(s) registrados en **${monthStr}**.`, flags: MessageFlags.Ephemeral });
 }
@@ -1051,7 +1051,7 @@ return interaction.reply({ content: '🔍 **Selecciona la semana que quieres ver
 if (interaction.isStringSelectMenu() && interaction.customId === 'select_semana_ranking') {
 const selectedWeek = interaction.values[0];
 const { getRanking } = require('../../src/services/assaultPersistence');
-const ranking = getRanking(selectedWeek);
+const ranking = await getRanking(selectedWeek);
 const weekNum = selectedWeek.split('-W')[1];
 if (!ranking.length) {
 return interaction.update({ content: `No hay asalto(s) registrados en la **Semana ${weekNum}**.`, components: [] });

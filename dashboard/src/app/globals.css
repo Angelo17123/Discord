@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #131313;
+  --color-surface-container: #201f1f;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #e4beb9;
+  --color-primary: #ffb4ac;
+  --color-primary-container: #ff544c;
+  --color-on-primary: #690006;
+  --color-on-primary-container: #5c0005;
+  --color-secondary: #a2c9ff;
+  --color-secondary-container: #3394f1;
+  --color-on-secondary: #00315b;
+  --color-on-secondary-container: #002b50;
+  --color-tertiary: #ffb2bf;
+  --color-tertiary-container: #ff4d81;
+  --color-on-tertiary: #660028;
+  --color-on-tertiary-container: #5a0022;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-outline: #ab8985;
+  --color-outline-variant: #5b403d;
+  --color-inverse-surface: #e5e2e1;
+  --color-inverse-on-surface: #313030;
+  --color-inverse-primary: #bb171c;
+  --color-surface-tint: #ffb4ac;
+  --color-surface-bright: #393939;
+  --color-surface-dim: #131313;
+  --color-on-background: #e5e2e1;
+  --color-background: #131313;
+  --font-headline: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #131313;
+  color: #e5e2e1;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353534;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff544c;
+}

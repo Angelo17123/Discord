@@ -120,6 +120,18 @@ class PostgresMatchRepository {
     }
   }
 
+  async create(match) {
+    const pool = db.getPool();
+    const id = `match_${Date.now()}`;
+    const { rows } = await pool.query(
+      `INSERT INTO matches (id, sede_name, def_name, atk_name, winner_name, score_def, score_atk, rounds, capacity, created_at, event_subtype, fecha)
+       VALUES ($1, $2, $3, $4, NULL, 0, 0, 0, $5, NOW(), $6, $7)
+       RETURNING *`,
+      [id, match.sede_name, match.def_name, match.atk_name, match.capacity || "15 vs 15", match.event_subtype || "asalto", match.fecha || null]
+    );
+    return rows[0];
+  }
+
   async getAllMatches() {
     const pool = db.getPool();
     const { rows } = await pool.query(

@@ -1,19 +1,31 @@
 {
-  "name": "discord-voice-bot",
-  "version": "1.0.0",
-  "description": "Discord selfbot that stays in voice channel",
+  "name": "bot-entretenimiento-realrp",
+  "version": "2.0.0",
+  "description": "Bot de Discord para gestión de asaltos, eventos BR y verificación de staff para Real RP",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "concurrently \"node --watch index.js\" \"npm run dev --prefix dashboard\"",
+    "dev:bot": "node --watch index.js",
+    "dev:dashboard": "npm run dev --prefix dashboard"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
     "@discordjs/voice": "^0.19.2",
+    "@sentry/node": "^10.47.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.6",
     "debug": "^4.4.3",
-    "discord.js-selfbot-v13": "^3.7.1",
-    "dotenv": "^17.3.1"
+    "discord.js": "^14.26.0",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   }
 }
